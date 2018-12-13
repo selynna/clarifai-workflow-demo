@@ -1,0 +1,19 @@
+body {
+  font-family: "Muli";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.analysis {
+  margin: 0 20px;
+
+}
+
+.photo {
+  display: none;
+  width: 30vw;
+}
