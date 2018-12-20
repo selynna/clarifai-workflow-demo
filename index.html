@@ -10,17 +10,17 @@
   </head>
 
   <body>
-    <header>
-      <h1>Analyze My Image!</h1>
-      <div class="upload-photo">
-        <input type="file" onchange="uploadImage()">
-      </div>
+    <header class="header">
+      <h1 class="header-text">Analyze My Image!</h1>
     </header>
     <div class="container">
-      <div class="analysis" id="analysis">
+      <div class="upload-photo">
+        <input class="file-upload" type="file" onchange="uploadImage()">
+        <div class="photo-container">
+          <img class="photo" src="" alt="Image preview">
+        </div>
       </div>
-      <div class="photo-container">
-        <img class="photo" src="" alt="Image preview">
+      <div class="analysis" id="analysis">
       </div>
     </div>
   </body>

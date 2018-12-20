@@ -1,19 +1,46 @@
 body {
   font-family: "Muli";
+  margin: 0;
+}
+
+.header {
+  background-color: #2E68FB;
+  height: 100%;
+  margin: 0;
+  padding: 2vh 1vw;
+  color: white;
+}
+
+.header-text {
+  margin: 0;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin: 2vh 2vw;
+}
+
+.upload-photo {
+  margin-right: 4vw;
+}
+
+.file-upload {
+  margin-bottom: 2vh;
 }
 
 .analysis {
-  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
+.modal-container {
+  width: 30vw;
+  margin: 1vh 1vw;
 }
 
 .photo {
   display: none;
-  width: 30vw;
+  width: 20vw;
 }
